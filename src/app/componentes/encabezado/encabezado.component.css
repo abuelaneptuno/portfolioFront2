@@ -1,0 +1,22 @@
+#info {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 90px;
+    margin-bottom: -100px;
+}
+
+#info-data div {
+    margin: 10px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#profile-background img {
+    width: 100%;
+    border-top-left-radius: 20px;
+}

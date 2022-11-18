@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+a:hover{
+    color: #832161;
+}
+a:visited {
+    color: #C2948A;
+}
+body {
+    color: #12130F;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(210, 204, 214);
+    padding: 10px;
+}
+
+.btn-right {
+    position: relative;
+    bottom: 160px;
+    color: #C2948A
+}
+
+.boton {
+    color: #C2948A;
+}
+
+.boton:hover {
+    color: #BBD5ED;
+}
+
+.btn-right:hover {
+    color:cadetblue;
+}
+
+.card {
+    border-color: #832161;
+    border-style:double;
+    border-width: 1,1px;;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 20px;
+}
+
+.top{
+    letter-spacing: 0.12em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top a {
+    position: relative;
+    top: 10px;
+    right: 10px;
+}

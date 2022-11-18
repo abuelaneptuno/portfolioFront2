@@ -1,0 +1,17 @@
+<div class="card" id="proyectos">
+    <div class="top">
+        <div><h2>Proyectos</h2></div>
+        <div><a href="#" class="boton"><i class="fas fa-pencil-alt"></i></a></div>
+    </div>
+    <ul class="proyectosLista">
+        <li *ngFor="let proyecto of proyectosList" class="proyecto">
+            <div>
+                <img [src]="proyecto.imagen">
+            </div>
+            <div>
+                <h3>{{ proyecto.nombre}} <a [href]="proyecto.enlace"><i class="fas fa-link"></i></a></h3>
+                <p>{{ proyecto.descripcion}}</p>
+            </div>
+        </li>
+    </ul>
+</div>

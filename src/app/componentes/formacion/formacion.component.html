@@ -1,0 +1,13 @@
+<div class="card" id="educacion">
+    <div class="top">
+        <div><h2>Educación</h2></div>
+        <div><a href="#" class="boton"><i class="fas fa-pencil-alt"></i></a></div>
+    </div>
+    <ul>
+        <li *ngFor="let educacion of educacionList" class="educacion-tarjeta">
+            <div><img [src] = "educacion.imagen"></div> 
+            <div><span>{{ educacion.carrera }}</span>
+            <p>{{ educacion.fechas }} || {{educacion.institucion }}</p></div>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,49 @@
+{
+    "nombre": "Carmela Cuaranta",
+    "posicion": "Estudiante de Desarrollo Web Fullstack y Profesorado en Biología",
+    "ubicacion": "Paraná, Entre Ríos, Argentina",
+    "banner": "https://images.pexels.com/photos/4040639/pexels-photo-4040639.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4040639.jpg&fm=jpg",
+    "acercaDe": "Soy estudiante de Profesorado en Biología, carrera cuyo cursado ya finalicé. Estoy a 5 materias de recibirme. Además, estoy cursando la carrera de Certified Tech Developer y el curso de formación Argentina Programa, ya que quiero desempeñarme profesionalmente como desarrolladora web y de software.",
+    "educacion":[{
+        "carrera":"Certified Tech Developer",
+        "fechas": "2021 - actual",
+        "institucion": "Digital House",
+        "imagen": "assets/img/digitalHouse.png"
+    },
+    { 
+        "carrera":"Profesorado en Biología",
+        "fechas": "2015 - actual",
+        "institucion": "Universidad Autónoma de Entre Ríos", 
+        "imagen": "assets/img/uader_4_0.jpg"
+    },
+    {
+        "carrera":"Bioingeniería",
+        "fechas": "2010 - 2014",
+        "institucion": "Universidad Nacional de Entre Ríos",
+        "imagen": "assets/img/uner.png"
+    },
+    {
+        "carrera":"Educación Polimodal con orientación en Economía y Gestión de Organizaciones.",
+        "fechas": "2004 - 2009",
+        "institucion": "Escuela Normal Superior José María Torres",
+        "imagen": "assets/img/normal.png"
+    }],
+    "proyectos":[{
+        "nombre": "Portfolio",
+        "enlace": "https://naughty-banach-a23378.netlify.app/",
+        "descripcion": "Realizado en el workshop de programa desde tu casa. Diciembre de 2020. HTML, CSS, JS y Bootstrap",
+        "imagen": "assets/img/portfolio.JPG"
+    },
+    {
+        "nombre": "Pet Shop",
+        "enlace": "https://modest-spence-1069f0.netlify.app/",
+        "descripcion": "Práctica de Front End I, diseño responsive usando HTML y CSS.",
+        "imagen": "assets/img/petshop.png"
+    },
+    { 
+        "nombre": "Calculadora Básica",
+        "enlace": "https://aprendiendo-js.abuelaneptuno.repl.co/",
+        "descripcion": "Hecha usando HTML, CSS y Javascript. Enero de 2022.",
+        "imagen": "assets/img/calculadora.JPG"
+}]
+}

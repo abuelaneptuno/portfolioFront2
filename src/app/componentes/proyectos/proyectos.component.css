@@ -1,0 +1,15 @@
+.proyecto {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.proyectosLista {
+    list-style: none;
+    margin: 10px;
+}
+
+.proyectosLista img {
+    width: 100px;
+    margin: 10px;
+}

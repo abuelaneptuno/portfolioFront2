@@ -1,0 +1,20 @@
+    <div class="card">
+    <div id="profile-background"><img [src]="miPorfolio.banner"></div>
+    <div id="info" style="padding: 16px">
+        <div id="info-img">
+            <img class="profile-image" src="assets\img\carmensdg.jpg">
+            <div class="btn-edit"><a href="#" class="btn-right"><i class="fas fa-pencil-alt"></i></a></div>
+        </div>
+        <div id="info-data">
+            <div>
+                <h1>{{ miPorfolio.nombre }}</h1>
+                <div id="info-company">
+                    <h4><i class="far fa-address-card"></i> {{ miPorfolio.posicion}}</h4>
+                </div>
+                <div id="info-contact">
+                    <h4><i class="fas fa-map-marker-alt"></i> {{ miPorfolio.ubicacion }}</h4>
+                    <h4><i class="far fa-paper-plane"></i><a href="mailto:carmelalucuaranta@gmail.com"> carmelalucuaranta@gmail.com</a></h4>
+                </div>
+            </div>
+    </div>
+    </div>
