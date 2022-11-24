@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Usuario } from 'src/app/model/Usuario';
+import { APIserviceService } from 'src/app/servicios/apiservice.service';
 import { PorfolioService } from 'src/app/servicios/porfolio.service';
 
 @Component({
@@ -8,15 +10,15 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
 })
 export class AcercaDeComponent implements OnInit {
   miPorfolio:any;
-  constructor(private datosPorfolio:PorfolioService) { }
+  usuario:Usuario = new Usuario();
+  constructor(private datosPorfolio:PorfolioService, public apiservice: APIserviceService) { }
 
   ngOnInit(): void {
     this.datosPorfolio.obtenerDatos().subscribe(data =>{
-      console.log(data);
       this.miPorfolio = data;
     });
+    this.apiservice.getUsuario().subscribe(dato => {(
+      this.usuario = dato)
+      });
   }
-   cambiar_parrafo(){
-     console.log("Esto ocurre");
-   }
 }

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { APIserviceService } from './servicios/apiservice.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'App Angular';
+  public usuario: any
+
+  constructor(private apiService: APIserviceService){
+    this.apiService.getUsuario().subscribe((resp: any) => {
+      console.log("esto:" + resp)
+    })
+  }
 }

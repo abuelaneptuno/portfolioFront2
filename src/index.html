@@ -3,7 +3,30 @@
 <head>
   <meta charset="utf-8">
   <title>ProjectAP</title>
-  <base href="/">
+  <base href="/"> 
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <!-- Firebase Auth SDK -->
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      import { initializeApp } from "firebase/app";
+      import { getAnalytics } from "firebase/analytics";
+      var firebaseConfig = {
+        apiKey: "AIzaSyBf_p5rAhghPuhIuyEshTdHUDo4Ux9lJtg",
+        authDomain: "frontversion2.firebaseapp.com",
+        projectId: "frontversion2",
+        storageBucket: "frontversion2.appspot.com",
+        messagingSenderId: "366376645182",
+        appId: "1:366376645182:web:374a0bea677e17a9b0576f",
+        measurementId: "G-X5EHEQQXBW"
+      }
+      // Initialize Firebase
+      
+      const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+firebase.initializeApp(firebaseConfig)
+    </script>
+  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
